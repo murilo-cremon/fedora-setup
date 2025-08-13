@@ -18,7 +18,7 @@ To automate the installation of the software and tools I personally use on Fedor
 1. Run command bellow:
 
 ```bash
-git https://github.com/murilo-cremon/fedora-setup.git &&
+git clone https://github.com/murilo-cremon/fedora-setup.git &&
 cd fedora-setup &&
 chmod +x *.sh &&
 sudo ./fedora_setup.sh
