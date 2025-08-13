@@ -1,4 +1,4 @@
-# 🐧 Setup Fedora
+# 🐧 Fedora Setup
 
 This repository contains a custom shell script designed to automate the installation of essential programs and utilities after formatting a Fedora Linux machine. The goal is to simplify and speed up the configuration process, avoiding repetitive manual installations.
 
@@ -18,7 +18,7 @@ To automate the installation of the software and tools I personally use on Fedor
 1. Run command bellow:
 
 ```bash
-git clone https://github.com/your-username/setup-fedora.git &&
-cd setup-fedora &&
+git clone https://github.com/your-username/fedora-setup.git &&
+cd fedora-setup &&
 chmod +x *.sh &&
-sudo ./setup-fedora.sh
+sudo ./fedora_setup.sh
