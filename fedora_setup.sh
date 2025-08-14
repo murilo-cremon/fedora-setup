@@ -70,7 +70,6 @@ addition_extra_programs_flatpaks () {
 
 # Function that is called to install flathub packages
 install_flatpaks () {
-    # Adicionando Flathub para flatpaks
     local flathub_installed=$(flatpak remote-list | grep flathub)
 
     if [[ -z "$flathub_installed" ]]; then
@@ -85,6 +84,7 @@ install_flatpaks () {
         "com.valvesoftware.Steam"
         "com.spotify.Client"
         "com.discordapp.Discord"
+        "io.github.suchnsuch.Tangent"
     )
 
     for program in "${flatpak_programs[@]}"; do
