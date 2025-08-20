@@ -20,5 +20,7 @@ To automate the installation of the software and tools I personally use on Fedor
 ```bash
 git clone https://github.com/murilo-cremon/fedora-setup.git &&
 cd fedora-setup &&
-chmod +x *.sh &&
+chmod +x fedora_setup.sh &&
+chmod +x scripts/*.sh &&
 sudo ./fedora_setup.sh
+```
