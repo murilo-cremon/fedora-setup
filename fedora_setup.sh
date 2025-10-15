@@ -6,6 +6,7 @@ set -e
 . scripts/update_system.sh
 . scripts/rpm_repositories.sh
 . scripts/utilities.sh
+. scripts/pgadmin_desktop.sh
 
 # Block responsible for calling the above installation functions
 main() {
